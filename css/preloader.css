@@ -1,0 +1,72 @@
+/* custom font faces */
+@font-face {
+    font-family: "neue1";
+    src: url(/fonts/NeueMachina-Light.otf);
+}
+
+@font-face {
+    font-family: "neue2";
+    src: url(/fonts/NeueMachina-Regular.otf);
+}
+
+@font-face {
+    font-family: "neue3";
+    src: url(/fonts/NeueMachina-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: 'monrl';
+    src: url(/fonts/PPNeueMontreal-Thin.otf);
+}
+
+@font-face {
+    font-family: 'monrl1';
+    src: url(/fonts/PPNeueMontreal-Medium.otf);
+}
+
+@font-face {
+    font-family: 'monrl2';
+    src: url(/fonts/PPNeueMontreal-Bold.otf);
+}
+
+
+
+.overlay {
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    top: 0%;
+}
+
+.overlay-title1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'DM Sans' !important;
+    font-weight: 600;
+}
+
+.overlay2 {
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    top: 0%;
+}
+
+.overlay-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+    font-family: 'DM Sans' !important;
+    font-weight: 600;
+}
+

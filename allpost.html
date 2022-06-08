@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
+
+    <!-- font awesome cdn here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- gogole font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;900&family=Roboto+Mono:ital,wght@0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <script src="https://kit.fontawesome.com/d4f6784649.js" crossorigin="anonymous"></script>
+
+    <!-- flaticon cdn -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <!-- owl careosel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jquery uncompressed cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- owl carosel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/allpost.css">
+    <link rel="stylesheet" href="css/nav-color.css">
+    <title>udoy lab</title>
+</head>
+
+<body>
+    <!-- destop navsection start here -->
+    <header>
+        <div class="logo"><a href="index.html"><img src="./images/udoylab b.svg" alt="logo" srcset=""></a></div>
+        <div class="mid-links">
+            <ul class="mid-link-lists">
+                <li><a href="#" class="test">Home</a></li>
+                <li><a href="#" class="test2">About</a></li>
+                <li><a href="#" class="test3">Contact</a></li>
+                <li><a href="#" class="test4">Works</a></li>
+                <li><a href="#" class="test5">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </header>
+    <!-- destop nav section end here -->
+
+    <!-- mobile nav start here -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Works</a>
+        <a href="#">FAQ</a>
+        <div class="social-icon-mobile">
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </div>
+    <div class="mobile-nav-main">
+        <a href="index.html"><img class="mobile-nva-logo" src="/images/udoylab b.svg" alt="logo" srcset=""></a>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <!-- mobile nav end here -->
+
+
+    <!-- all post section start here -->
+    <div class="allpost">
+        <div class="allpost-main">
+            <div class="hr-top"></div>
+            <div class="post">
+                <div class="post-img">
+                    <a href="#" class="post-bg">
+                        <div class="post-thamnale-img"
+                            style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/02940b117707769.607ae84fa70a0.png) ; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 4px;  transition: .6s;">
+                        </div>
+                    </a>
+                </div>
+                <div class="post-title"><a href="#">
+                        <h2>Shay Garnham nominated for an Oscar for Best Actress</h2>
+                    </a></div>
+                <div class="post-date">20.04.2022</div>
+                <div class="post-owner">Sums Musa</div>
+                <div class="post-preview"><a href="#" class="live-view-button">Live view</a></div>
+            </div>
+            <div class="hr-bottom"></div>
+
+
+            <div class="post">
+                <div class="post-img">
+                    <a href="#" class="post-bg">
+                        <div class="post-thamnale-img"
+                            style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/a20e38121858263.60ce1e42a607c.jpg) ; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 4px;  transition: .6s;">
+                        </div>
+                    </a>
+                </div>
+                <div class="post-title"><a href="#">
+                        <h2>Shay Garnham nominated for an Oscar for Best Actress</h2>
+                    </a></div>
+                <div class="post-date">20.04.2022</div>
+                <div class="post-owner">Sums Musa</div>
+                <div class="post-preview"><a href="#" class="live-view-button">Live view</a></div>
+            </div>
+            <div class="hr-bottom"></div>
+
+
+            <div class="post">
+                <div class="post-img">
+                    <a href="#" class="post-bg">
+                        <div class="post-thamnale-img"
+                            style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/1a8d9d118585505.608be51c60f52.jpg) ; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 4px;  transition: .6s;">
+                        </div>
+                    </a>
+                </div>
+                <div class="post-title"><a href="#">
+                        <h2>Shay Garnham nominated for an Oscar for Best Actress</h2>
+                    </a></div>
+                <div class="post-date">20.04.2022</div>
+                <div class="post-owner">Sums Musa</div>
+                <div class="post-preview"><a href="#" class="live-view-button">Live view</a></div>
+            </div>
+            <div class="hr-bottom"></div>
+
+
+            <div class="post">
+                <div class="post-img">
+                    <a href="#" class="post-bg">
+                        <div class="post-thamnale-img"
+                            style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/0da5f8120116035.60abad9f5420f.jpg) ; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 4px;  transition: .6s;">
+                        </div>
+                    </a>
+                </div>
+                <div class="post-title"><a href="#">
+                        <h2>Shay Garnham nominated for an Oscar for Best Actress</h2>
+                    </a></div>
+                <div class="post-date">20.04.2022</div>
+                <div class="post-owner">Sums Musa</div>
+                <div class="post-preview"><a href="#" class="live-view-button">Live view</a></div>
+            </div>
+            <div class="hr-bottom"></div>
+
+
+            <div class="post">
+                <div class="post-img">
+                    <a href="#" class="post-bg">
+                        <div class="post-thamnale-img"
+                            style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/f0a92c89096735.5dea199a007c0.jpg) ; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 4px;  transition: .6s;">
+                        </div>
+                    </a>
+                </div>
+                <div class="post-title"><a href="#">
+                        <h2>Shay Garnham nominated for an Oscar for Best Actress</h2>
+                    </a></div>
+                <div class="post-date">20.04.2022</div>
+                <div class="post-owner">Sums Musa</div>
+                <div class="post-preview"><a href="#" class="live-view-button">Live view</a></div>
+            </div>
+            <div class="hr-bottom"></div>
+
+
+            <div class="post">
+                <div class="post-img">
+                    <a href="#" class="post-bg">
+                        <div class="post-thamnale-img"
+                            style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/4b002e117638849.6079768cb96a3.png) ; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 4px;  transition: .6s;">
+                        </div>
+                    </a>
+                </div>
+                <div class="post-title"><a href="#">
+                        <h2>Shay Garnham nominated for an Oscar for Best Actress</h2>
+                    </a></div>
+                <div class="post-date">20.04.2022</div>
+                <div class="post-owner">Sums Musa</div>
+                <div class="post-preview"><a href="#" class="live-view-button">Live view</a></div>
+            </div>
+            <div class="hr-bottom"></div>
+
+
+            <div class="post">
+                <div class="post-img">
+                    <a href="#" class="post-bg">
+                        <div class="post-thamnale-img"
+                            style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/8f9e27102754337.5f3d9cb1a50c4.jpg) ; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 4px;  transition: .6s;">
+                        </div>
+                    </a>
+                </div>
+                <div class="post-title"><a href="#">
+                        <h2>Shay Garnham nominated for an Oscar for Best Actress</h2>
+                    </a></div>
+                <div class="post-date">20.04.2022</div>
+                <div class="post-owner">Sums Musa</div>
+                <div class="post-preview"><a href="#" class="live-view-button">Live view</a></div>
+            </div>
+            <div class="hr-bottom"></div>
+        </div>
+    </div>
+    <!-- all post section end here -->
+
+    <!-- top and bottom extra space start here -->
+    <div class="top-ex-space"></div>
+    <!-- top and bottom extra space end here -->
+
+    <!-- footer sectuon start here -->
+    <footer>
+        <div class="footer-main">
+            <div class="footer-logo">
+                <img src="/images/udoylab w.svg" alt="footer logo">
+            </div>
+            <div class="nav-links-1">
+                <h5 class="nav-title-1">Navigate</h5>
+                <ul class="nav-links-name-1">
+                    <li><i class="fa-solid fa-arrow-right"></i>Home</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Services</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Portfolio</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Latest</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Contact</li>
+                </ul>
+            </div>
+            <div class="nav-links-2">
+                <h5 class="nav-title-2">Let's talk</h5>
+                <ul class="nav-links-name-2">
+                    <li><i class="fa-solid fa-arrow-right"></i>Business</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>General</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Support</li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h5 class="social-title">Networks</h5>
+                <div class="social-link-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sectuon end here -->
+
+    <!-- <script src="/js/nav-animation.js"></script> -->
+    <script src="/js/mobile-nav.js"></script>
+    <script src="/js/nva-color.js"></script>
+
+</body>
+
+</html>

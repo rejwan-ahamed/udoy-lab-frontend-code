@@ -1,0 +1,206 @@
+/* custom font faces */
+@font-face {
+    font-family: "neue1";
+    src: url(/fonts/NeueMachina-Light.otf);
+}
+
+@font-face {
+    font-family: "neue2";
+    src: url(/fonts/NeueMachina-Regular.otf);
+}
+
+@font-face {
+    font-family: "neue3";
+    src: url(/fonts/NeueMachina-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: 'monrl';
+    src: url(/fonts/PPNeueMontreal-Thin.otf);
+}
+
+@font-face {
+    font-family: 'monrl1';
+    src: url(/fonts/PPNeueMontreal-Medium.otf);
+}
+
+@font-face {
+    font-family: 'monrl2';
+    src: url(/fonts/PPNeueMontreal-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.error{
+    background-color: white !important;
+    width: 100%;
+    height: 100%;
+}
+.error-main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-img img{
+    width: 30vw
+}
+.error-title{
+    font-family: 'neue1';
+    font-size: 25px;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+.error-button{
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    font-family: 'neue1' !important;
+    text-decoration: none;
+    border-radius: 10em;
+    font-weight: 500;
+    padding: 15px 36px !important;
+    border: 1px solid;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.error-button:hover{
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border-color: #000000 !important;
+    font-family: 'neue1' !important;
+    text-decoration: none;
+    border-radius: 10em;
+    font-weight: 500;
+    padding: 15px 36px !important;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+
+/* 404 page responsiveness start here */
+
+/* for laptop */
+@media (min-width: 1000px) and (max-width: 1200px) { 
+
+    .error-title {
+        font-family: 'neue1';
+        font-size: 20px;
+        padding-bottom: 3rem;
+    }
+
+    .message-img img {
+        width: 40vw;
+    }
+ }
+
+/* reponsiveness for mobile */
+
+ @media (min-width: 200px) and (max-width: 400px){
+    .message-img img {
+        width: 80vw;
+    }
+    .error-title {
+        font-family: 'neue1';
+        font-size: 18px;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        line-height: 30px;
+    }
+    .error-button {
+        color: #ffffff !important;
+        background-color: #000000 !important;
+        border-color: #000000 !important;
+        font-family: 'neue1' !important;
+        text-decoration: none;
+        border-radius: 10em;
+        font-weight: 500;
+        padding: 13px 30px !important;
+        border: 1px solid;
+        font-size: 15px;
+        transition: .5s;
+    }
+    .error-button:hover{
+        color: #000000 !important;
+        background-color: #ffffff !important;
+        border-color: #000000 !important;
+        font-family: 'neue1' !important;
+        text-decoration: none;
+        border-radius: 10em;
+        font-weight: 500;
+        padding: 13px 30px !important;
+        border: 1px solid;
+        font-size: 15px;
+    }
+
+    .error-main {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+
+ @media (min-width: 401px) and (max-width: 500px){
+    .message-img img {
+        width: 80vw;
+    }
+    .error-title {
+        font-family: 'neue1';
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
+    .error-button {
+        color: #ffffff !important;
+        background-color: #000000 !important;
+        border-color: #000000 !important;
+        font-family: 'neue1' !important;
+        text-decoration: none;
+        border-radius: 10em;
+        font-weight: 500;
+        padding: 13px 30px !important;
+        border: 1px solid;
+        font-size: 15px;
+        transition: .5s;
+    }
+    .error-button:hover{
+        color: #000000 !important;
+        background-color: #ffffff !important;
+        border-color: #000000 !important;
+        font-family: 'neue1' !important;
+        text-decoration: none;
+        border-radius: 10em;
+        font-weight: 500;
+        padding: 13px 30px !important;
+        border: 1px solid;
+        font-size: 15px;
+    }
+
+    .error-main {
+        display: flex;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+

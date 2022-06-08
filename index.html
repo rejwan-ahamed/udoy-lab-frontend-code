@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
+
+    <!-- font awesome cdn here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- gogole font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;900&family=Roboto+Mono:ital,wght@0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <script src="https://kit.fontawesome.com/d4f6784649.js" crossorigin="anonymous"></script>
+
+    <!-- flaticon cdn -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <!-- owl careosel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jquery uncompressed cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- owl carosel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- greensock for preloader -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <title>udoy lab</title>
+</head>
+
+<body>
+
+    <!-- preloader section start here -->
+    <div class="overlay-main">
+        <div class="overlay">
+            <h1 class="overlay-title1">udoy lab</h1>
+        </div>
+        <div class="overlay2">
+            <h1 class="overlay-title">udoy lab</h1>
+        </div>
+    </div>
+
+
+    <!-- preloader section end here -->
+
+    <!-- destop navsection start here -->
+    <header>
+        <div class="logo"><a href="#"><img src="./images/udoylab b.svg" alt="logo" srcset=""></a></div>
+        <div class="mid-links">
+            <ul class="mid-link-lists">
+                <li><a href="#" class="test active">Home</a></li>
+                <li><a href="#" class="test2">About</a></li>
+                <li><a href="#" class="test3">Contact</a></li>
+                <li><a href="#" class="test4">Works</a></li>
+                <li><a href="#" class="test5">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </header>
+    <!-- destop nav section end here -->
+
+    <!-- mobile nav start here -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Works</a>
+        <a href="#">FAQ</a>
+        <div class="social-icon-mobile">
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="mobile-icon"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </div>
+    <div class="mobile-nav-main">
+        <a href="index.html"><img class="mobile-nva-logo" src="/images/udoylab b.svg" alt="logo" srcset=""></a>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <!-- mobile nav end here -->
+
+
+    <!-- carosel section start here -->
+    <section class="main-carosel">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carosel-img1">
+                        <div class="udoylab-tagline-main">
+                            <h1 class="udoylab-tag-line1">
+                                <span>Welcome to Udoy Lab</span>
+                                <span>where your idea become reality</span>
+                            </h1>
+                            <a href="#" class="tagline-contact-button-1" tabindex="-1" role="button"
+                                aria-disabled="true">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carosel-img2">
+                        <div class="udoylab-tagline-main">
+                            <h1 class="udoylab-tag-line1">
+                                <span>Let's make something big together</span>
+                            </h1>
+                            <a href="#" class="tagline-contact-button-1" tabindex="-1" role="button"
+                                aria-disabled="true">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carosel-img3">
+                        <div class="udoylab-tagline-main">
+                            <h1 class="udoylab-tag-line1 black">
+                                <span>Let's make something great together</span>
+                            </h1>
+                            <a href="#" class="tagline-contact-button-1 black-button" tabindex="-1" role="button"
+                                aria-disabled="true">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    <!-- carosel section end here -->
+
+    <!-- about section start here -->
+    <section class="about">
+        <div class="about-main">
+            <div class="about-left">
+                <span class="about-left-title">Research</span>
+                <ul class="about-left-list">
+                    <li><i class="fa-solid fa-minus"></i> UI/UX research</li>
+                    <li><i class="fa-solid fa-minus"></i> Brand strategy</li>
+                    <li><i class="fa-solid fa-minus"></i> Marketing</li>
+                    <li><i class="fa-solid fa-minus"></i> Wensite</li>
+                    <li><i class="fa-solid fa-minus"></i> Management</li>
+                </ul>
+            </div>
+            <div class="about-mid">
+                <span class="about-mid-title">Development</span>
+                <ul class="about-mid-list">
+                    <li><i class="fa-solid fa-minus"></i> User experience</li>
+                    <li><i class="fa-solid fa-minus"></i> User interface</li>
+                    <li><i class="fa-solid fa-minus"></i> Development</li>
+                    <li><i class="fa-solid fa-minus"></i> CMS</li>
+                    <li><i class="fa-solid fa-minus"></i> Enterprise Software</li>
+                </ul>
+            </div>
+            <div class="about-right">
+                <div class="story-line-1">
+                    <h1>we are team of some incredible individual specializes in development, marketing, design and
+                        strategy
+                        working together under a hub. We work as a team with our clients lead them in the world of
+                        modernization to express their business around the globe. we build websites, CMS and specialised
+                        softwares for them. Already we work with some fascinating clients and direct them to the
+                        possibelity
+                        of endless opertunity. we help them to altering their business with mordern technology.</h1>
+                </div>
+                <div class="story-line-2">
+                    <h2>There may have some question in your mind and it should be. How we work, complete our projects,
+                        cooperate with our team, etc. We work as a team. Each member of our team is a precious stone for
+                        us.
+                        First of all, we analyzed our clients criteria and what they want from us. After the basic
+                        understanding of the concept, we divide the project into some small portions and everyone in the
+                        team is assigned with their specific task. It's a great strategy for us to finish the work
+                        perfectly
+                        in a short possible time. We hope you get a basic understanding of how we work and it helps us
+                        to
+                        cooperate with our clients. Have an idea to share, you can discuss it with us. We are always
+                        here
+                        for you. </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end here -->
+
+    <!-- quotes section start here -->
+    <section class="qoutes">
+        <div class="qoutes-main">
+            <div class="qoutes-sub-main">
+                <div class="qoutes-pragraph">
+                    <h3>"we're a team of remarkable strategists, creatives, developers, designers who crafts brands for
+                        the digital age. We specialize in developing stunning creativity into the real world with a
+                        meaningful experience. We lead our client to enrich their goals. " </h3>
+                </div>
+                <div class="qoutes-given-by">
+                    <img class="qoutes-avatar"
+                        src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/05/usman-yousaf-xYzEQptq7XU-unsplash-uai-250x250.webp"
+                        alt="qoutes given by" srcset="">
+                    <h4 class="avatar-name">Mark Mils</h4>
+                    <h5 class="avatar-state">Founder & CEO</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- quotes section end  here -->
+
+    <!-- service section start here -->
+    <section class="service">
+        <div class="service-main row">
+            <div class="service-det">
+                <div class="service-icon">
+                    <i class="bi bi-lightbulb"></i>
+                </div>
+                <div class="service-detiles">
+                    <h4>01. Wordpress website</h4>
+                    <p>Make your online presence by deploying your website online. We can can create minimal looking,
+                        beautiful and eye catchy website by wordpress.</p>
+                </div>
+            </div>
+            <div class="service-det">
+                <div class="service-icon">
+                    <i class="bi bi-code-slash"></i>
+                </div>
+                <div class="service-detiles">
+                    <h4>02. Coded website</h4>
+                    <p>We develop custom code website for our clients. Our clients can customize their website and add
+                        features in the website for full fill their needs.</p>
+                </div>
+            </div>
+            <div class="service-det">
+                <div class="service-icon">
+                    <i class="bi bi-cast"></i>
+                </div>
+                <div class="service-detiles">
+                    <h4>03. Mobile app</h4>
+                    <p>Bring your ideas to life using fast and reliable also grow your business with a secure customer
+                        communication developed by mobile apps.</p>
+                </div>
+            </div>
+            <div class="service-det">
+                <div class="service-icon">
+                    <i class="bi bi-journal-code"></i>
+                </div>
+                <div class="service-detiles">
+                    <h4>04. Erp software</h4>
+                    <p>Enterprise resource planning (erp) refers to you integrated organizations management business
+                        processes, in real time day-to-day business activities (accounting, procurement, project
+                        management, risk management and compliance, and supply chain operations).</p>
+                </div>
+            </div>
+            <div class="service-det">
+                <div class="service-icon">
+                    <i class="bi bi-shop-window"></i>
+                </div>
+                <div class="service-detiles">
+                    <h4>05. Marketing</h4>
+                    <p>Marketing is an irresistible tool for enrich your targeted ordinance in the digital era. Our
+                        specialized strategist team will guide you to reach out your targeted ordinance.
+                    </p>
+                </div>
+            </div>
+            <div class="service-det">
+                <div class="service-icon">
+                    <i class="bi bi-share"></i>
+                </div>
+                <div class="service-detiles">
+                    <h4>06. Social media marketing</h4>
+                    <p>The powerful way for businesses of all sizes to reach prospects and customers. Times are
+                        changing. There's more to social media marketing than posting on facebook and twitter a few
+                        times a day. If you want to build your brand, engage your prospects, and increase sales, it
+                        takes time and work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section start here -->
+    <section class="team">
+        <div class="team-main">
+            <div class="team-header">
+                <h4>All stars roster</h4>
+                <p>Meet our incredible team members work behind the scene.They are stuffed with ideas,
+                    inspiration,strategy and help us to implement your ideas into a reality.</p>
+            </div>
+            <div class="team-avatar">
+                <div class="container">
+                    <div class="row align-items-start team-avater-top">
+                        <div class="col col-space">
+                            <img class="team-avater-img"
+                                src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-4-min-uai-720x720.webp"
+                                alt="">
+                            <h5 class="member-name">Riaz Vhai</h5>
+                            <h5 class="member-title">Team lead</h5>
+                        </div>
+                        <div class="col col-space">
+                            <img class="team-avater-img"
+                                src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-5-min-uai-720x720.webp"
+                                alt="">
+                            <h5 class="member-name">Riaz Vhai</h5>
+                            <h5 class="member-title">Team lead</h5>
+                        </div>
+                        <div class="col col-space">
+                            <img class="team-avater-img"
+                                src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-uai-720x720.webp"
+                                alt="">
+                            <h5 class="member-name">Riaz Vhai</h5>
+                            <h5 class="member-title">Team lead</h5>
+                        </div>
+                    </div>
+                    <div class="row align-items-center team-avater-top">
+                        <div class="col col-space">
+                            <img class="team-avater-img"
+                                src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-4-min-uai-720x720.webp"
+                                alt="">
+                            <h5 class="member-name">Riaz Vhai</h5>
+                            <h5 class="member-title">Team lead</h5>
+                        </div>
+                        <div class="col col-space">
+                            <img class="team-avater-img"
+                                src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-5-min-uai-720x720.webp"
+                                alt="">
+                            <h5 class="member-name">Riaz Vhai</h5>
+                            <h5 class="member-title">Team lead</h5>
+                        </div>
+                        <div class="col col-space">
+                            <img class="team-avater-img"
+                                src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-uai-720x720.webp"
+                                alt="">
+                            <h5 class="member-name">Riaz Vhai</h5>
+                            <h5 class="member-title">Team lead</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team section end here -->
+
+    <!-- background video start here -->
+    <section class="background-video">
+        <div class="video-bg-img">
+        </div>
+        <div class="wrapper">
+            <div class="circle pulse"></div>
+            <div class="circle">
+                <a class="play-button" href="/images/main.mp4" target="_self" data-focus-tabbed=""
+                    data-behavior="modalVideo" data-modal="modal-video" data-modalvideo-src="/images/main.mp4">
+                    <svg class="play-but" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <polygon points="40,30 65,50 40,70"></polygon>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- background video end here -->
+
+    <!-- blog section start here -->
+    <section class="blog ">
+        <div class="blog-title">Latest Project</div>
+        <div class="blog-pragraph">
+            <p>Presenting our best projects of this year. Check out the projects and get some ideas
+                about our work and services.</p>
+        </div>
+        <div class="blog-main row">
+            <div class="card">
+                <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2019/08/design-blog-3-min-uai-480x320.webp"
+                    class="card-img-top blog-thamnale" alt="blog thamnale">
+                <div class="card-body">
+                    <h5 class="blog-date">25.03.2020</h5>
+                    <a href="#" class="blog-link">We won another mobile excellence design award</a>
+                    <p class="blog-des"> When you are alone for days or weeks at a time you eventually become</p>
+                    <div class="blog-orgin">
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-100x100.jpg"
+                            alt="avater" srcset="">
+                        <div class="blog-owner">
+                            <h5 class="owner-name">by Tim Drakenberg</h5>
+                            <h6 class="blog-tags">Thinker &amp; designer </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2019/08/design-blog-3-min-uai-480x320.webp"
+                    class="card-img-top blog-thamnale" alt="blog thamnale">
+                <div class="card-body">
+                    <h5 class="blog-date">25.03.2020</h5>
+                    <a href="#" class="blog-link">We won another mobile excellence design award</a>
+                    <p class="blog-des"> When you are alone for days or weeks at a time you eventually become. </p>
+                    <div class="blog-orgin">
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-100x100.jpg"
+                            alt="avater" srcset="">
+                        <div class="blog-owner">
+                            <h5 class="owner-name">by Tim Drakenberg</h5>
+                            <h6 class="blog-tags">Thinker &amp; designer </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2019/08/design-blog-3-min-uai-480x320.webp"
+                    class="card-img-top blog-thamnale" alt="blog thamnale">
+                <div class="card-body">
+                    <h5 class="blog-date">25.03.2020</h5>
+                    <a href="#" class="blog-link">We won another mobile excellence design award</a>
+                    <p class="blog-des"> When you are alone for days or weeks at a time you eventually become</p>
+                    <div class="blog-orgin">
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-100x100.jpg"
+                            alt="avater" srcset="">
+                        <div class="blog-owner">
+                            <h5 class="owner-name">by Tim Drakenberg</h5>
+                            <h6 class="blog-tags">Thinker &amp; designer </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- owl carousel for blog -->
+        <div class="owl-carousel owl-theme">
+            <div class="card">
+                <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2019/08/design-blog-3-min-uai-480x320.webp"
+                    class="card-img-top blog-thamnale" alt="blog thamnale">
+                <div class="card-body">
+                    <h5 class="blog-date">25.03.2020</h5>
+                    <a href="#" class="blog-link">We won another mobile excellence design award</a>
+                    <p class="blog-des"> When you are alone for days or weeks at a time you eventually become</p>
+                    <div class="blog-orgin">
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-100x100.jpg"
+                            alt="avater" srcset="">
+                        <div class="blog-owner">
+                            <h5 class="owner-name">by Tim Drakenberg</h5>
+                            <h6 class="blog-tags">Thinker &amp; designer </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2019/08/design-blog-3-min-uai-480x320.webp"
+                    class="card-img-top blog-thamnale" alt="blog thamnale">
+                <div class="card-body">
+                    <h5 class="blog-date">25.03.2020</h5>
+                    <a href="#" class="blog-link">We won another mobile excellence design award</a>
+                    <p class="blog-des"> When you are alone for days or weeks at a time you eventually become. </p>
+                    <div class="blog-orgin">
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-100x100.jpg"
+                            alt="avater" srcset="">
+                        <div class="blog-owner">
+                            <h5 class="owner-name">by Tim Drakenberg</h5>
+                            <h6 class="blog-tags">Thinker &amp; designer </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2019/08/design-blog-3-min-uai-480x320.webp"
+                    class="card-img-top blog-thamnale" alt="blog thamnale">
+                <div class="card-body">
+                    <h5 class="blog-date">25.03.2020</h5>
+                    <a href="#" class="blog-link">We won another mobile excellence design award</a>
+                    <p class="blog-des"> When you are alone for days or weeks at a time you eventually become</p>
+                    <div class="blog-orgin">
+                        <img src="https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2021/03/team-7-min-100x100.jpg"
+                            alt="avater" srcset="">
+                        <div class="blog-owner">
+                            <h5 class="owner-name">by Tim Drakenberg</h5>
+                            <h6 class="blog-tags">Thinker &amp; designer </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="vesit-button">
+            <a href="#" class="btn btn-primary blog-button" role="button">Vesit the Blog</a>
+        </div>
+    </section>
+    <!-- blog section end here -->
+
+    <!-- footer sectuon start here -->
+    <footer>
+        <div class="footer-main">
+            <div class="footer-logo">
+                <img src="/images/udoylab w.svg" alt="footer logo">
+            </div>
+            <div class="nav-links-1">
+                <h5 class="nav-title-1">Navigate</h5>
+                <ul class="nav-links-name-1">
+                    <li><i class="fa-solid fa-arrow-right"></i>Home</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Services</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Portfolio</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Latest</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Contact</li>
+                </ul>
+            </div>
+            <div class="nav-links-2">
+                <h5 class="nav-title-2">Let's talk</h5>
+                <ul class="nav-links-name-2">
+                    <li><i class="fa-solid fa-arrow-right"></i>Business</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>General</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Support</li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h5 class="social-title">Networks</h5>
+                <div class="social-link-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sectuon end here -->
+
+
+
+
+    <script src="/js/owl.js"></script>
+    <script src="/js/nav-animation.js"></script>
+    <script src="/js/mobile-nav.js"></script>
+    <script src="/js/preloader.js"></script>
+
+</body>
+
+</html>
